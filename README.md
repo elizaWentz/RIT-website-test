@@ -46,7 +46,8 @@
 <p>
   In main.js wordt de canvas die p5 aanmaakt automatisch opgezocht en verplaatst naar de container #project-sketch.
 </p>
-<img width="477" height="270" alt="p5 javascript code" src="https://github.com/user-attachments/assets/eb9d83b0-6b33-43fe-acde-1a4e4520fa4e" />
+<img width="484" height="217" alt="p5 javascript code" src="https://github.com/user-attachments/assets/09730c3a-c2cb-41e3-9e2e-682bb78908ec" />
+
 
 
 <p>
