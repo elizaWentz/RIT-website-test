@@ -64,6 +64,8 @@
   Ik heb de p5 sketch klikbaar gemaakt door een link om de sketch-container heen te zetten. 
   Deze link verwijst direct naar het JavaScript-bestand van de sketch.
 </p>
+<img width="1068" height="55" alt="html download code" src="https://github.com/user-attachments/assets/d4889b29-1bf9-4ea0-985f-43ebee468ee8" />
+
 
 <p>
   Omdat ik het download-attribuut gebruik, probeert de browser het bestand te downloaden in plaats van het alleen te openen.
@@ -78,6 +80,8 @@
   In CSS geef ik de link een hover- en focus-state. Daardoor verschijnt er bij hover of toetsenbordfocus een label met “Download p5 code”. 
   De focus-state is belangrijk voor toegankelijkheid, omdat mensen die met het toetsenbord navigeren dan ook kunnen zien dat de sketch interactief is.
 </p>
+<img width="270" height="39" alt="CSS downlaod code" src="https://github.com/user-attachments/assets/aee61a3b-095a-4f29-9601-5956e1acdbec" />
+<img width="344" height="182" alt="CSS downlaod code focus state" src="https://github.com/user-attachments/assets/21ce549b-3af6-4bc9-8599-79f2a0f1ee90" />
 
 
 
