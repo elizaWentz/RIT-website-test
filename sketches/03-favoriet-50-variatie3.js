@@ -1,39 +1,7 @@
-let resizeTimer;
-
 function setup() {
-  const size = getSketchSize();
-  const canvas = createCanvas(size.width, size.height);
-  canvas.parent("project-sketch");
-  canvas.elt.setAttribute("aria-hidden", "true");
-  canvas.elt.setAttribute("tabindex", "-1");
+  createCanvas(1920, 1080);
   pixelDensity(1);
   noLoop();
-}
-
-function windowResized() {
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(resizeSketch, 100);
-}
-
-function resizeSketch() {
-  const size = getSketchSize();
-  resizeCanvas(size.width, size.height);
-  redraw();
-}
-
-function getSketchSize() {
-  const sketch = document.getElementById("project-sketch");
-
-  if (!sketch) {
-    return { width: 1920, height: 1080 };
-  }
-
-  const bounds = sketch.getBoundingClientRect();
-
-  return {
-    width: Math.max(1, Math.round(bounds.width)),
-    height: Math.max(1, Math.round(bounds.height))
-  };
 }
 
 function draw() {
