@@ -1,6 +1,26 @@
 <h1>
   Hero Section Met P5
 </h1>
+  In deze test heb ik onderzocht hoe ik een p5 sketch kan inladen op een detailpagina van een project. 
+  Daarbij heb ik vooral gekeken of de sketch goed binnen de hero section blijft staan en niet kapot gaat wanneer de pagina responsive wordt.
+</p>
+<p>
+  Tijdens deze test heb ik ook rekening gehouden met performance. 
+  De p5 library wordt lokaal ingeladen vanuit de vendor map, zodat de pagina niet afhankelijk is van een externe CDN en de sketch betrouwbaarder kan laden.
+</p>
+<img width="1512" height="769" alt="performance score" src="https://github.com/user-attachments/assets/1bcd64f1-3f16-48d8-869f-50bf7292e18c" />
+
+
+<p>
+  Ik heb de pagina getest in verschillende browsers (Chrome, Safari en Firefox). 
+  In deze browsers blijft de layout werken en wordt de p5 sketch goed ingeladen.
+</p>
+
+<p>
+  Daarnaast heb ik getest hoe ik de p5 sketch downloadbaar kan maken. 
+  Door de sketch-container klikbaar te maken, kan de bezoeker het JavaScript-bestand van de p5 sketch downloaden.
+</p>
+
 <h2>
   Grid lay-out
 </h2>
