@@ -56,6 +56,29 @@
 </p>
 <img width="252" height="131" alt="canvas CSS code" src="https://github.com/user-attachments/assets/e2c3fafb-c048-4670-821d-5ec5eff9d747" />
 
+<h2>
+  P5 code downloaden
+</h2>
+
+<p>
+  Ik heb de p5 sketch klikbaar gemaakt door een link om de sketch-container heen te zetten. 
+  Deze link verwijst direct naar het JavaScript-bestand van de sketch.
+</p>
+
+<p>
+  Omdat ik het download-attribuut gebruik, probeert de browser het bestand te downloaden in plaats van het alleen te openen.
+</p>
+
+<p>
+  De p5 canvas wordt nog steeds door main.js in de container #project-sketch geplaatst. 
+  Omdat #project-sketch binnen de link staat, wordt de hele sketch automatisch klikbaar.
+</p>
+
+<p>
+  In CSS geef ik de link een hover- en focus-state. Daardoor verschijnt er bij hover of toetsenbordfocus een label met “Download p5 code”. 
+  De focus-state is belangrijk voor toegankelijkheid, omdat mensen die met het toetsenbord navigeren dan ook kunnen zien dat de sketch interactief is.
+</p>
+
 
 
 <h2>
