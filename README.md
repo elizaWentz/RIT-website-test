@@ -23,7 +23,32 @@
 </p>
 <img width="541" height="36" alt="html script p5" src="https://github.com/user-attachments/assets/cf50a4e7-3164-4161-85ea-3fb1a6ef6bac" />
 <p>
-  
+  De p5 library staat lokaal in de vendor map. Daardoor hoeft de site p5 niet van het internet te downloaden en werkt de sketch betrouwbaarder.
 </p>
+
+<h2>
+  Responsiveness
+</h2>
+
+<p> Om de layout responsive te maken, verandert de grid op kleinere schermen naar één kolom:</p>
+<img width="283" height="75" alt="Grid CSS" src="https://github.com/user-attachments/assets/e263d164-306a-4750-9070-b7eb079a8d9c" />
+
+<p>De p5 sketch word boven de tekst gezet met:</p>
+<img width="221" height="72" alt="volgorde grid CSS code" src="https://github.com/user-attachments/assets/30dd491f-34a7-424a-8ec3-13e54ffaa11e" />
+
+<p>Belangrijk is dat de CSS de grootte bepaalt, niet de p5 canvas zelf. Daarom krijgt de container van de sketch de hoogte:</p>
+<img width="212" height="162" alt="max-height CSS code" src="https://github.com/user-attachments/assets/cfed7c09-7866-44e4-8274-eba7f893ee63" />
+
+<p>De canvas wordt daarna binnen die container geplaatst:</p>
+<img width="239" height="106" alt="canvas CSS code" src="https://github.com/user-attachments/assets/d030d346-34b8-4530-a981-043272dffcda" />
+<p>
+  In de p5 sketch wordt bij het resizen opnieuw gemeten hoe groot de container is. Daarna wordt de canvas aangepast aan die maat. Zo blijft de     sketch netjes binnen de hero en maakt de canvas de layout niet kapot.
+</p>
+
+<h2>
+  Samengevat
+</h2>
+<p>Grid bepaalt de layout, CSS bepaalt de grootte van de sketch-container, en p5 past de canvas aan die container aan.</p>
+
 
 
